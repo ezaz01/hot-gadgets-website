@@ -1,0 +1,86 @@
+.container{
+    margin-bottom: 100px;
+}
+
+/*carousel icon color change using gpt*/
+.carousel-indicators [data-bs-target] {
+    background-color: black;
+}
+
+.carousel-indicators .active {
+    background-color: black;
+}
+
+
+
+
+/*slider*/
+.carousel-item {
+    padding: 20px 40px;
+}
+.buy-now{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.line-bg{
+    background-image: url('../bg-1.png');
+    background-repeat: no-repeat;
+}
+
+/*smartphone*/
+.dotted-bg {
+    background-image: url('../bg-2.png');
+    background-repeat: no-repeat;
+}
+.card{
+    border:none;
+    background-color: white;
+    box-shadow: 5px 5px 5px rgb(233, 233, 233);
+    margin: 20px 20px;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
+
+
+/*Categories*/
+
+.underline-block {
+    width: 100px;
+    height: 8px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #ff8206, #ffff00);
+}
+
+#perfume-cat,
+#shoe-cat {
+    border-radius: 15px 5px 30px 5px;
+}
+
+#bag-cat {
+    border-radius: 5px 15px 5px 30px;
+}
+
+/********footer*********/
+
+.footer-block {
+    background-color: #37475a;
+}
+
+.footer-block input {
+    font-size: 16px;
+    border-radius: 2px;
+    border: none;
+
+    padding: 5px;
+}
+
+.submit-btn:hover {
+    background-color: lightgray;
+}
+
